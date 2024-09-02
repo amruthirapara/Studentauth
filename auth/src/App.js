@@ -1,12 +1,12 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import About from './pages/About';
-import Admin from './pages/Admin';
-import Login from './pages/auth/Login';
-import Registration from './pages/auth/Registration';
-import Update from './pages/auth/Update';
-import Home from './pages/Home';
-import Student from './pages/Student';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Admin from "./pages/Admin";
+import Login from "./pages/auth/Login";
+import Registration from "./pages/auth/Registration";
+import Update from "./pages/auth/Update";
+import Home from "./pages/Home";
+import Student from "./pages/Student";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/update/:id" element={<Update />} />
 
-          <Route path="*" element={<h1>Error 404 Page not found !!</h1>} />
+          <Route path="*" element={<h1>Error 404 Page !!</h1>} />
         </Routes>
       </BrowserRouter>
     </>
