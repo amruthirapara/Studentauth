@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/update/:id" element={<Update />} />
 
-          <Route path="*" element={<h1>Error 404 Page !!</h1>} />
+          <Route path="*" element={<h1>hello</h1>} />
         </Routes>
       </BrowserRouter>
     </>
